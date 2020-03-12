@@ -15,6 +15,7 @@ class FormBuilderDropdown extends StatefulWidget {
   final List<DropdownMenuItem> items;
   final bool isExpanded;
   final TextStyle style;
+  final TextAlignVertical textAlignVertical;
   final bool isDense;
   final int elevation;
   final Widget disabledHint;
@@ -50,7 +51,7 @@ class FormBuilderDropdown extends StatefulWidget {
     this.iconEnabledColor,
     this.allowClear = false,
     this.clearIcon = const Icon(Icons.close),
-    this.onSaved,
+    this.onSaved, this.textAlignVertical,
   }) : super(key: key) /*: assert(allowClear == true || clearIcon != null)*/;
 
   @override
@@ -108,6 +109,7 @@ class _FormBuilderDropdownState extends State<FormBuilderDropdown> {
       },
       builder: (FormFieldState<dynamic> field) {
         return InputDecorator(
+          textAlignVertical: widget.textAlignVertical,
           decoration: widget.decoration.copyWith(
             errorText: field.errorText,
           ),
