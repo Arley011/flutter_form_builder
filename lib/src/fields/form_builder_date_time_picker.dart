@@ -90,6 +90,7 @@ class FormBuilderDateTimePicker extends StatefulWidget {
   final TextInputType keyboardType;
   final TextStyle style;
   final TextAlign textAlign;
+  final TextAlignVertical textAlignVertical;
 
   /// Preset the widget's value.
   final bool autofocus;
@@ -197,6 +198,7 @@ class FormBuilderDateTimePicker extends StatefulWidget {
     this.keyboardAppearance,
     this.textCapitalization = TextCapitalization.none,
     this.strutStyle,
+    this.textAlignVertical,
     this.useRootNavigator = true,
   }) : super(key: key);
 
@@ -292,6 +294,7 @@ class _FormBuilderDateTimePickerState extends State<FormBuilderDateTimePicker> {
       resetIcon: widget.resetIcon,
       textDirection: widget.textDirection,
       textAlign: widget.textAlign,
+      textAlignVertical: widget.textAlignVertical,
       maxLength: widget.maxLength,
       autofocus: widget.autofocus,
       decoration: widget.decoration,

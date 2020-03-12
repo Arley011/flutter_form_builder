@@ -25,6 +25,7 @@ class FormBuilderTextField extends StatefulWidget {
   final StrutStyle strutStyle;
   final TextDirection textDirection;
   final TextAlign textAlign;
+  final TextAlignVertical textAlignVertical;
   final bool autofocus;
   final bool autocorrect;
   final bool maxLengthEnforced;
@@ -86,6 +87,7 @@ class FormBuilderTextField extends StatefulWidget {
     this.minLines,
     this.showCursor,
     this.onSaved,
+    this.textAlignVertical,
     this.onTap,
   })  : assert(initialValue == null || controller == null),
         super(key: key);
@@ -171,6 +173,7 @@ class FormBuilderTextFieldState extends State<FormBuilderTextField> {
       onFieldSubmitted: widget.onFieldSubmitted,
       scrollPadding: widget.scrollPadding,
       textAlign: widget.textAlign,
+      textAlignVertical: widget.textAlignVertical,
       textCapitalization: widget.textCapitalization,
       textDirection: widget.textDirection,
       textInputAction: widget.textInputAction,
