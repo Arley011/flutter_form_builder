@@ -14,6 +14,7 @@ class FormBuilderTextField extends StatefulWidget {
   final ValueTransformer valueTransformer;
 
   final bool autovalidate;
+  final GestureTapCallback onTap;
   final int maxLines;
   final TextInputType keyboardType;
   final bool obscureText;
@@ -55,6 +56,7 @@ class FormBuilderTextField extends StatefulWidget {
     this.decoration = const InputDecoration(),
     this.autovalidate = false,
     this.maxLines,
+    this.onTap,
     this.obscureText = false,
     this.textCapitalization = TextCapitalization.none,
     this.scrollPadding = const EdgeInsets.all(20.0),
@@ -124,6 +126,7 @@ class FormBuilderTextFieldState extends State<FormBuilderTextField> {
     _readOnly = (_formState?.readOnly == true) ? true : widget.readOnly;
 
     return TextFormField(
+      onTap: onTap,
       key: _fieldKey,
       validator: (val) {
         for (int i = 0; i < widget.validators.length; i++) {
