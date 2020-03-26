@@ -30,6 +30,7 @@ class FormBuilderChoiceChip extends StatefulWidget {
   final double runSpacing, spacing;
   final TextDirection textDirection;
   final VerticalDirection verticalDirection;
+  final bool isRequiredChoice;
 
   FormBuilderChoiceChip(
       {Key key,
@@ -58,7 +59,8 @@ class FormBuilderChoiceChip extends StatefulWidget {
       this.runSpacing = 0.0,
       this.spacing = 0.0,
       this.textDirection,
-      this.verticalDirection = VerticalDirection.down})
+      this.verticalDirection = VerticalDirection.down,
+        this.isRequiredChoice = false})
       : super(key: key);
 
   @override
@@ -149,7 +151,7 @@ class _FormBuilderChoiceChipState extends State<FormBuilderChoiceChip> {
                                 setState(() {
                                   FocusScope.of(context)
                                       .requestFocus(FocusNode());
-                                  var choice = selected ? option.value : null;
+                                  var choice = selected ? option.value : widget.isRequiredChoice ? field.value : null;
                                   field.didChange(choice);
                                   if (widget.onChanged != null)
                                     widget.onChanged(choice);
