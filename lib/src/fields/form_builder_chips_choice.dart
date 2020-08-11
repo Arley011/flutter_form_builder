@@ -158,48 +158,7 @@ class _FormBuilderChoiceChipState extends State<FormBuilderChoiceChip> {
                                 });
                               })
                 ]));
-          decoration: widget.decoration.copyWith(
-            enabled: !_readOnly,
-            errorText: field.errorText,
-          ),
-          child: Wrap(
-              direction: widget.direction,
-              alignment: widget.alignment,
-              crossAxisAlignment: widget.crossAxisAlignment,
-              runAlignment: widget.runAlignment,
-              runSpacing: widget.runSpacing,
-              spacing: widget.spacing,
-              textDirection: widget.textDirection,
-              verticalDirection: widget.verticalDirection,
-              children: <Widget>[
-                for (FormBuilderFieldOption option in widget.options)
-                  ChoiceChip(
-                    selectedColor: widget.selectedColor,
-                    disabledColor: widget.disabledColor,
-                    backgroundColor: widget.backgroundColor,
-                    shadowColor: widget.shadowColor,
-                    selectedShadowColor: widget.selectedShadowColor,
-                    shape: widget.shape,
-                    elevation: widget.elevation,
-                    pressElevation: widget.pressElevation,
-                    materialTapTargetSize: widget.materialTapTargetSize,
-                    label: option,
-                    selected: field.value == option.value,
-                    onSelected: _readOnly
-                        ? null
-                        : (bool selected) {
-                            setState(() {
-                              FocusScope.of(context).requestFocus(FocusNode());
-                              var choice = selected ? option.value : null;
-                              field.didChange(choice);
-                              widget.onChanged?.call(choice);
-                            });
-                          },
-                    labelPadding: widget.labelPadding,
-                    labelStyle: widget.labelStyle,
-                  ),
-              ]),
-        );
+
       },
     );
   }
