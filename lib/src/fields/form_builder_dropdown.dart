@@ -61,7 +61,6 @@ class FormBuilderDropdown<T> extends StatefulWidget {
     this.allowClear = false,
     this.clearIcon = const Icon(Icons.close),
     this.onSaved, this.textAlignVertical,
-    this.onSaved,
     this.itemHeight,
     this.focusColor,
     this.dropdownColor,
