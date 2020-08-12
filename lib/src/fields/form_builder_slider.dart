@@ -23,7 +23,7 @@ class FormBuilderSlider extends StatefulWidget {
   final ValueChanged<double> onChangeStart;
   final ValueChanged<double> onChangeEnd;
   final String label;
-  final SemanticFormatterCallback semanticFormatterCallback;
+//  final SemanticFormatterCallback semanticFormatterCallback;
   final NumberFormat numberFormat;
   final FormFieldSetter onSaved;
   final DisplayValues displayValues;
@@ -52,7 +52,7 @@ class FormBuilderSlider extends StatefulWidget {
     this.onChangeStart,
     this.onChangeEnd,
     this.label,
-    this.semanticFormatterCallback,
+//    this.semanticFormatterCallback,
     this.numberFormat,
     this.onSaved,
     this.displayValues = DisplayValues.all,
@@ -134,7 +134,7 @@ class _FormBuilderSliderState extends State<FormBuilderSlider> {
                   onChangeEnd: widget.onChangeEnd,
                   onChangeStart: widget.onChangeStart,
                   label: widget.label,
-                  semanticFormatterCallback: widget.semanticFormatterCallback,
+//                  semanticFormatterCallback: widget.semanticFormatterCallback,
                   focusNode: widget.focusNode,
                   autofocus: widget.autofocus,
                   mouseCursor: widget.mouseCursor,
