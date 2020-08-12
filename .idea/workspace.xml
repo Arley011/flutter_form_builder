@@ -6,10 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d516c1a-1e29-487d-a597-c4f4760b5e12" name="Default" comment="fixed conflicts">
+    <list default="true" id="3d516c1a-1e29-487d-a597-c4f4760b5e12" name="Default" comment="commented semanticFormatterCallback field in form_builder_range_slider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -42,11 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="114" column="78" lean-forward="true" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
+            <state>
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -57,17 +55,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/range_slider.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="373" column="24" selection-start-line="373" selection-start-column="24" selection-end-line="373" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="373" column="34" selection-start-line="373" selection-start-column="34" selection-end-line="373" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_slider.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/slider.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="426" column="34" selection-start-line="426" selection-start-column="34" selection-end-line="426" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,29 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/slider_theme.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="3236" column="8" selection-start-line="3236" selection-start-column="8" selection-end-line="3236" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_radio.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_typeahead.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="3236" column="7" selection-start-line="3236" selection-start-column="7" selection-end-line="3236" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -137,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>should</find>
-      <find>clear</find>
       <find>clear()</find>
       <find>accept_terms_switch</find>
       <find>try</find>
@@ -167,6 +163,8 @@
       <find>textAlign</find>
       <find>textAlignVertical</find>
       <find>semanticFormatterCallback</find>
+      <find>typedef</find>
+      <find>SemanticFormatterCallback</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;${formControl.label} field is required&quot;</replace>
@@ -197,6 +195,7 @@
       <dir>$PROJECT_DIR$/lib/src</dir>
       <dir>$PROJECT_DIR$/lib/src/fields</dir>
       <dir>$PROJECT_DIR$/lib</dir>
+      <dir>C:\Flutter\projects\flutter_form_builder_final\lib</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -245,7 +244,6 @@
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_radio.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_rate.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_segmented_control.dart" />
-        <option value="$PROJECT_DIR$/lib/src/fields/form_builder_slider.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_stepper.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_switch.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_typeahead.dart" />
@@ -258,10 +256,11 @@
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_date_time_picker.dart" />
         <option value="$PROJECT_DIR$/../Flutter/.pub-cache/hosted/pub.dartlang.org/datetime_picker_formfield-1.0.0/lib/datetime_picker_formfield.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_chips_choice.dart" />
-        <option value="$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_text_field.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_dropdown.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/src/fields/form_builder_slider.dart" />
+        <option value="$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart" />
       </list>
     </option>
   </component>
@@ -461,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597180205028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix RangeSemanticFormatterCallback">
+      <created>1597234630191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597234630191</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commented semanticFormatterCallback field">
+      <created>1597235794134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597235794134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,9 +520,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.19194631" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.22214764" />
       <window_info id="Structure" order="1" sideWeight="0.50157726" side_tool="true" weight="0.22573689" />
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.19892953" />
       <window_info id="Image Layers" order="3" />
@@ -531,8 +543,8 @@
       <window_info anchor="bottom" id="Logcat" order="10" />
       <window_info anchor="bottom" id="Android Profiler" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4989339" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.28611898" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4989339" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Multi-OS Engine" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -600,11 +612,13 @@
     <MESSAGE value="onTap field added." />
     <MESSAGE value="Fixed merge conflict" />
     <MESSAGE value="fixed conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed conflicts" />
+    <MESSAGE value="Fix RangeSemanticFormatterCallback" />
+    <MESSAGE value="commented semanticFormatterCallback field" />
+    <MESSAGE value="commented semanticFormatterCallback field in form_builder_range_slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="commented semanticFormatterCallback field in form_builder_range_slider" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/text_field.dart" />
     <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_chips_input-1.5.1/lib/src/chips_input.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_segmented_control.dart">
       <provider selected="true" editor-type-id="text-editor">
@@ -617,16 +631,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/widgets/signature.dart" />
-    <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_slider.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_switch.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -894,24 +898,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/slider_theme.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="3236" column="8" selection-start-line="3236" selection-start-column="8" selection-end-line="3236" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/range_slider.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="373" column="24" selection-start-line="373" selection-start-column="24" selection-end-line="373" selection-end-column="24" />
+        <state relative-caret-position="140">
+          <caret line="373" column="34" selection-start-line="373" selection-start-column="34" selection-end-line="373" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart">
+    <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/slider_theme.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="114" column="78" lean-forward="true" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
+        <state relative-caret-position="170">
+          <caret line="3236" column="7" selection-start-line="3236" selection-start-column="7" selection-end-line="3236" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/flutter/packages/flutter/lib/src/material/slider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="426" column="34" selection-start-line="426" selection-start-column="34" selection-end-line="426" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_slider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -920,8 +931,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_range_slider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
