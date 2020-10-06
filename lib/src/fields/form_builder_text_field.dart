@@ -138,6 +138,7 @@ class FormBuilderTextFieldState extends State<FormBuilderTextField> {
     _readOnly = _formState?.readOnly == true || widget.readOnly;
 
     return TextFormField(
+      onTap: widget.onTap,
       key: _fieldKey,
       validator: (val) =>
           FormBuilderValidators.validateValidators(val, widget.validators),
@@ -193,7 +194,6 @@ class FormBuilderTextFieldState extends State<FormBuilderTextField> {
       expands: widget.expands,
       minLines: widget.minLines,
       showCursor: widget.showCursor,
-      onTap: widget.onTap,
       autofillHints: widget.autofillHints,
       obscuringCharacter: widget.obscuringCharacter,
     );
