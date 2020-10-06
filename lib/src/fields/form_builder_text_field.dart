@@ -95,7 +95,6 @@ class FormBuilderTextField extends StatefulWidget {
     this.minLines,
     this.showCursor,
     this.onSaved,
-    this.textAlignVertical,
     this.onTap,
     this.toolbarOptions,
     this.smartQuotesType,

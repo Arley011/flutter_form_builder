@@ -207,7 +207,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/src/inputs/form_builder_chips_input.dart" />
-        <option value="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_chips_input-1.2.0/lib/src/chips_input.dart" />
+        <option value="$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_chips_input-1.2.0/lib/src/chips_input.dart" />
         <option value="$PROJECT_DIR$/lib/src/inputs/form_builder_typeahead.dart" />
         <option value="$PROJECT_DIR$/lib/src/inputs/form_builder_switch.dart" />
         <option value="$PROJECT_DIR$/lib/src/inputs/form_builder_stepper.dart" />
@@ -231,7 +231,7 @@
         <option value="$PROJECT_DIR$/lib/src/form_builder.dart" />
         <option value="$PROJECT_DIR$/lib/src/always_disabled_focus_node.dart" />
         <option value="$PROJECT_DIR$/lib/src/form_builder_field.dart" />
-        <option value="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/datetime_picker_formfield-1.0.0-pre.3/lib/datetime_picker_formfield.dart" />
+        <option value="$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/datetime_picker_formfield-1.0.0-pre.3/lib/datetime_picker_formfield.dart" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_dropdown.dart" />
         <option value="$PROJECT_DIR$/lib/src/fields/form_builder_checkbox.dart" />
@@ -599,17 +599,17 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/divider.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/dropdown.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/list_tile.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/slider.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/editable_text.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/foundation/change_notifier.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/divider.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/dropdown.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/list_tile.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/slider.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/widgets/editable_text.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/foundation/change_notifier.dart" />
     <entry file="file://$USER_HOME$/.software/CodeTime.txt" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/services/text_input.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/text_form_field.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/text_field.dart" />
-    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_chips_input-1.5.1/lib/src/chips_input.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/services/text_input.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/text_form_field.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/text_field.dart" />
+    <entry file="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_chips_input-1.5.1/lib/src/chips_input.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_typeahead.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -664,9 +664,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/foundation/basic_types.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/foundation/basic_types.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/form_builder_field.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/framework.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/widgets/framework.dart" />
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -748,10 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/widgets/form.dart" />
-    <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/ui/painting.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/colors.dart" />
-    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/painting/colors.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/widgets/form.dart" />
+    <entry file="file://$PROJECT_DIR$/../bin/cache/pkg/sky_engine/lib/ui/painting.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/material/colors.dart" />
+    <entry file="file://$PROJECT_DIR$/../packages/flutter/lib/src/painting/colors.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/fields/form_builder_color_picker.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4192">
